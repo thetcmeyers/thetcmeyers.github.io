@@ -1,0 +1,118 @@
+
+nav .nav-btn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: auto;
+}
+nav ul{
+    display: none;
+}
+.box{
+    background-color: white;
+    margin:5px 0;
+}
+.box p{
+    padding:15px;
+}
+header{
+    background-image: url(img/header-bg.jpg);
+    background-size: 70%;
+    background-position: center center;
+    /*padding replaces height*/
+    padding: 100px 0;
+}
+header {
+    text-align: center;
+}
+header .headbox{
+    padding:30px;
+    background-color: rgba(20, 20, 20, 0.8);
+    margin: auto;
+    width: 50%;
+    border-radius: 25px;
+
+
+}
+header h1{
+    font-size: 20px;
+    color:white;
+}
+header h3{
+    color:white;
+    font-style: italic;
+    font-weight: normal;
+}
+.btn-warning{
+    background-color:#FEC013;
+}
+#services{
+    text-align: center;
+    padding:20px;
+}
+#services .p-trans{
+    color:rgba(0, 0, 0, 0.2);
+}
+#services i.fa-circle{
+    color:#FEC013;
+}
+#services i.fa-stack-1x{
+    color:white;
+}
+
+.mapdiv {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.mapdiv .mapimg{
+    position: relative;
+    left: 10%;
+    width: 80%;
+}
+
+.mapdiv .marker1{
+  position: absolute;
+  width: 3%;
+  height: 4%;
+  top: 25%;
+  left: 16%;
+
+}
+
+footer i.fa-circle{
+    color:white;
+}
+footer i.fa-stack-1x{
+    color:black;
+}
+footer .apps{
+    font-size: 3px;
+}
+footer a{
+    color: #FEC013;
+}
+@media only screen and (min-width:1000px) {
+    nav .nav-btn{
+        display: none;
+    }
+    nav ul{
+        display: block;
+    }
+    header h1{
+        font-size: 75px;
+    }
+}
+
+@media only screen and (min-width:501px) and (max-width:999px) {
+    nav .nav-btn{
+        display: none;
+    }
+    nav ul{
+        display: block;
+    }
+    header h1{
+        font-size: 40px;
+    }
+}
